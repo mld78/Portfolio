@@ -1,4 +1,4 @@
-/* 
+/*
     Document   : Quick - default
     Created on : Jul 22, 2014, 10:15:10 PM
     Author     : Design_mylife
@@ -9,7 +9,7 @@
 html, body{
     height:100%;
 }
-body { 
+body {
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -84,7 +84,7 @@ label{
 }
 /**********bootstrap navigation overrides***********/
 .navbar-default {
-    background-color: rgba(255,255,255,0.9);  
+    background-color: rgba(255,255,255,0.9);
     border-bottom: 2px solid #f5f5f5 !important;
     width:100%;
     min-height: 70px;
@@ -195,20 +195,20 @@ h2.slide-btm-text{
 @media(max-width:767px){
     .main-flex-slider h1{
         font-size: 4em;
-    }   
+    }
 }
 @media(max-width:420px){
     .main-flex-slider h1{
         font-size: 2.5em;
         margin-bottom: 30px;
-    }   
+    }
     h2.slide-btm-text{
         display: none;
     }
     .home-link-btn{
         margin-top: 10px;
     }
-  
+
 }
 /***************buttons*****************************/
 .btn {
@@ -384,10 +384,10 @@ h2.slide-btm-text{
     margin-bottom: 25px;
 }
 .team-col img{
-    width:120px;
-    height: 120px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
+    width:228px;
+    height: 400px;
+    border-radius: 25%;
+    -webkit-border-radius: 25%;
     position: relative;
     top: 0px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.4);
@@ -477,7 +477,7 @@ h2.slide-btm-text{
 .cta-3 h3{
     color:#fff;
     font-size: 40px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
     font-weight: 300;
 }
 /***our services****/
@@ -592,11 +592,11 @@ h2.slide-btm-text{
 
 }
 .item-img-wrap img{
-    -webkit-transition:all 200ms linear; 
-    -moz-transition:all 200ms linear; 
-    -o-transition:all 200ms linear; 
-    -ms-transition:all 200ms linear; 
-    transition:all 200ms linear; 
+    -webkit-transition:all 200ms linear;
+    -moz-transition:all 200ms linear;
+    -o-transition:all 200ms linear;
+    -ms-transition:all 200ms linear;
+    transition:all 200ms linear;
 }
 .item-img-overlay{
     position: absolute;
@@ -623,10 +623,10 @@ h2.slide-btm-text{
     opacity: 1;
 }
 .item-img-wrap:hover img{
-    -moz-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    -o-transform: scale(1.1); 
-    transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -644,7 +644,7 @@ h2.slide-btm-text{
     margin: 0;
 }
 .plan-price{
-    padding: 20px 0;  
+    padding: 20px 0;
     text-align: center;
     border-bottom: 1px solid #efefef;
 }
@@ -704,11 +704,11 @@ h2.slide-btm-text{
     line-height: 40px;
     text-align: center;
     background-color: #f4f4f2;
-    -webkit-transition:all 200ms linear; 
-    -moz-transition:all 200ms linear; 
-    -o-transition:all 200ms linear; 
-    -ms-transition:all 200ms linear; 
-    transition:all 200ms linear; 
+    -webkit-transition:all 200ms linear;
+    -moz-transition:all 200ms linear;
+    -o-transition:all 200ms linear;
+    -ms-transition:all 200ms linear;
+    transition:all 200ms linear;
 }
 .social li a i:hover{
     color:#fff;
@@ -801,7 +801,7 @@ input[type="color"]:focus,
     height: 46px;
 }
 .footer-btm{
-    background: #353739; 
+    background: #353739;
 }
 .footer-nav{
     margin: 0px;
@@ -1117,7 +1117,7 @@ h3.heading-progress {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    text-align:center; 
+    text-align:center;
     background: whiteSmoke;
     font-weight: bold;
     color: #fff;
@@ -1216,4 +1216,3 @@ h3.heading-progress {
     font-size:13px;
     font-weight: 700;
 }
-
